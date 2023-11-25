@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha o Tipo de Conta</title>
+    <link rel="stylesheet" href="/shared/style/style.css">
+    <script src="tipoConta.js" defer></script>
+</head>
+<body>
+    <div class="tipo-conta-container">
+        <h2>Escolha o Tipo de Conta:</h2>
+        <form id="tipoContaForm">
+            <label>
+                Conta Usuário Administrador <input type="radio" name="tipoConta" value="administrador" required>
+            </label>
+            <label>
+                Conta Usuário Comum<input type="radio" name="tipoConta" value="usuarioComum" required>
+            </label>
+
+            <button type="submit">Selecionar</button>
+        </form>
+    </div>
+</body>
+</html>

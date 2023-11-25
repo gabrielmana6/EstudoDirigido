@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdminForm</title>
+    <link rel="stylesheet" href="/shared/style/style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Cadastro de Admin</h2>
+        <form id="adminForm">
+
+            <label for="login">Login:</label>
+            <input type="text" id="login"Login="login"Login>
+
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password" required>
+            
+            <div class="div-btn">
+                <a href="../tipoConta.html">
+                    <button type="button">Voltar</button>
+                </a>
+                <button type="submit" onclick="cadastrarAdmin()">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+    <script src="cadastrarAdmin.js"></script>
+</body>
+</html>
